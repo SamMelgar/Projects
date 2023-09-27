@@ -1,0 +1,96 @@
+body {
+    background-image: url('images/gunkdusk.jpg'); /*adds background image */;
+     background-size: cover;
+     background-position:center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    
+   }
+   nav {
+   background-color: #ce6c3300; /* Background color of the navbar */
+   overflow: hidden; /* Clear any floated elements within the navbar */
+   text-size-adjust:xlarger;
+   padding:10px;
+   position: relative;
+   z-index: 1;
+   }
+   nav {
+   text-size-adjust:x-large; 
+   }
+   nav ul {
+   list-style-type: none; /* Remove list bullets */
+   margin: 0;
+   padding: 0;
+   }
+   
+   li {
+   float:left; /* Float list items horizontally */
+   }
+   
+   nav a {
+   width: 100;
+   font-size: 23px;
+   color: #670404; /* Text color of the links */
+   padding: 10px; /* Spacing around each link */
+   margin:8;
+   text-decoration:none;
+   }
+   
+   li a:hover {
+   background-color: #8c9bc267; /* Background color on hover */
+   text-decoration:underline;
+   }
+   nav::after {
+   content: "";
+   display: block;
+   height: 2px;
+   background-color: #8c7f7f; /* Color of the line */
+   position: absolute; /* Add position:absolute to the line */
+   bottom: 0; /* Position the line at the bottom of the navigation bar */
+   left: 0; 
+   right: 0; 
+   z-index: -1; 
+   }
+   .container { /* class to contain boxes for paragraphs*/
+   Display:flex;
+   justify-content: center;
+   align-items: center;
+   }
+   .whiteblock { /*Creates block to for  information */
+   background-color:rgba(250, 235, 215, 0.819);
+   width:800px; /*adjust width of block*/
+   height:300px;
+   margin: 20px;
+   padding:20px;
+   border:1px solid #ccc
+   }
+   .right { /*floats name to the right */
+   float:right
+   }
+    .divider {
+     border: none; 
+     height: 2px; 
+     background-color: #8c7f7f; 
+     margin: 00px auto; /* Add margin to create spacing and auto center */
+     width: 100px;
+    }
+    .custom-formatting { /*custom heading for about section headers */
+     color: #670404; 
+     text-align: center;
+    }
+    body::before { 
+      content: "";
+      background-color: rgba(245, 241, 241, 0.432); /* Semi-transparent white overlay */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      z-index: -1; /* Place the overlay below other content */}
+   .center-text {
+     text-align: center;
+     color: #670404;
+   }
+
+
+
