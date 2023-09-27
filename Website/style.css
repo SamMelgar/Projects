@@ -71,10 +71,10 @@ body {
      border: none; 
      height: 2px; 
      background-color: #8c7f7f; 
-     margin: 00px auto; /* Add margin to create spacing and auto center */
+     margin: 10px auto; /* Add margin to create spacing and auto center */
      width: 100px;
     }
-    .custom-formatting { /*custom heading for about section headers */
+    .custom-formatting { /*custom heading for section headers */
      color: #670404; 
      text-align: center;
     }
@@ -91,7 +91,26 @@ body {
      text-align: center;
      color: #670404;
    }
-  
+   body, .grid-container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a grid layout */
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(25%, 1fr)); /* Responsive columns */
+    gap: 20px; /* Gap between grid items */
+    justify-items: center; /* Center items horizontally */
+}
+
+/* Style for individual grid items */
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    /* Add additional styling as needed */
+}
 
 
 
