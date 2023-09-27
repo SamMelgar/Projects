@@ -88,7 +88,7 @@ body, .grid-container {
 .grid-container {
   padding-top: 20px;
   display: grid;
-  grid-template-rows: repeat(100%); /* height for columns */
+  grid-template-rows: repeat(100%); /* height for rows */
   grid-auto-columns:repeat(,300px);
   gap: 20px; /* Gap between grid items */
   justify-items: center; /* Center items horizontally */
@@ -100,14 +100,20 @@ body, .grid-container {
   background-color: #f2f2f290;
   padding: 20px;
   text-align: center;
+  width: 69%;
 }
-.center-container {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}  */
+.contact-container { /*need to add padding from top in contact page */
+    display: grid;
+    align-content: center;
+    grid-template-rows: repeat(2,57px); 
+    gap: 20px; /* Gap between grid items */
+  
+}
 
-
-
+.contact-item {
+    /* Styles for individual grid items */
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+    background-color: #67040420;
+}
