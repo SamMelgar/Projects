@@ -91,15 +91,7 @@ body {
      text-align: center;
      color: #670404;
    }
-   .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.grid-item {
-    /* Define styles for grid items */
-}
+  
 
 
 
