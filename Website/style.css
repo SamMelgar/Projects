@@ -24,7 +24,7 @@ nav ul {
    }
    
 li {
-   float:left; /* Float list items horizontally */
+  float:left; /* Float list items horizontally */
    }
 nav a {
   width: 100;
@@ -51,7 +51,7 @@ nav::after {
   z-index: -1; 
    }
 .right { /*floats name to the right */
-   float:right
+  float:right
    }
 .divider {
   border: none; 
@@ -86,19 +86,19 @@ body, .grid-container {
 
 /* Create a grid layout */
 .grid-container {
-    display: grid;
-    grid-template-rows: repeat(3, 300px); /* height for columns */
-    grid-auto-columns:repeat(3,300px);
-    gap: 20px; /* Gap between grid items */
-    justify-items: center; /* Center items horizontally */
-    position:relative;
+  display: grid;
+  grid-template-rows: repeat(3, 300px); /* height for columns */
+  grid-auto-columns:repeat(3,300px);
+  gap: 20px; /* Gap between grid items */
+  justify-items: center; /* Center items horizontally */
+  position:relative;
 }
 
 /* Style for individual grid items */
 .grid-item {
-    background-color: #f2f2f290;
-    padding: 20px;
-    text-align: center;
+  background-color: #f2f2f290;
+  padding: 20px;
+  text-align: center;
 }
 /*center
 .center-container {
