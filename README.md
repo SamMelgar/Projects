@@ -2,4 +2,3 @@
 All the images are pictures that I have captured while adventuring.
 The objective is to show some images that I am proud of while incorporating the technical skills I have develop so far
 as part of the Fullstack program.
-http://127.0.0.1:3000/about.html
