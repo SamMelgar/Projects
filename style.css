@@ -67,11 +67,11 @@ nav::after {
 body::before { 
   content: "";
   background-color: rgba(245, 241, 241, 0.432); /* Semi-transparent white overlay */
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 140%;
+  height: 100vh;
   z-index: -1; /* Place the overlay below other content */}
 .center-text {
   text-align: center;
