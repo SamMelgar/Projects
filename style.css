@@ -103,7 +103,7 @@ body, .grid-container {
   width: 69%;
 }
 .contact-container { /*need to add padding from top in contact page */
-    display: grid;
+    display:-moz-grid-group;
     align-content: center;
     grid-template-rows: repeat(2,57px); 
     gap: 20px; /* Gap between grid items */
@@ -115,5 +115,29 @@ body, .grid-container {
     display: grid; 
     justify-content: center;
     align-items: center;
-    background-color: #67040420;
+    background-color: #580e0e20;
+}
+.social-media-bar {
+  background-color: #4c3b3b; /* Background color of the bar */
+  color: #fff; 
+  text-align: center; 
+}
+
+.social-media-bar ul {
+  list-style: none; 
+ text-align: center;
+}
+
+.social-media-bar li {
+  display: inline; /* Display list items inline */
+  margin: 0 10px; 
+}
+
+.social-media-bar a {
+  color: #fff; /* Text color for links */
+  text-decoration: none; 
+}
+
+.social-media-bar a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
