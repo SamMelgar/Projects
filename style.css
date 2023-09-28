@@ -128,12 +128,12 @@ body, .grid-container {
 .social-media-bar ul {
   list-style: none;
   padding: 0;
-  display: inline-block; /* Make the list items display inline */
+  display: inline-block; 
 }
 
 .social-media-bar li {
-  display: inline; /* Display list items inline */
-  margin: 0 10px; /* Add space between the icons */
+  display: inline; 
+  margin: 0 10px; 
 }
 
 .social-media-bar a {
