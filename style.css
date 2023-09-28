@@ -100,7 +100,7 @@ body, .grid-container {
   background-color: #f2f2f290;
   padding: 20px;
   text-align: center;
-  width: 69%;
+  width: 60%;
 }
 .contact-container { /*need to add padding from top in contact page */
     display:-moz-grid-group;
